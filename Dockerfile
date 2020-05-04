@@ -6,5 +6,4 @@ WORKDIR otus2019_webqa_python_opencart_tests/
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT pytest --executor=selenoid
-
+CMD pytest
